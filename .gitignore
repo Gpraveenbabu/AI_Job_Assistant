@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Env / secrets
+.env
+*.env
+!.env.example
+
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# Docker
+*.log
+
+# Data / models (added as later phases introduce them)
+*.pt
+*.pth
+chroma_data/
